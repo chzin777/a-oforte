@@ -19,12 +19,12 @@ const NAV = [
 ];
 
 const GALLERY = [
-  { src: "/galeria/portao-1.jpg", label: "Portão deslizante de chapa" },
-  { src: "/galeria/portao-2.jpg", label: "Portão de garagem (de enrolar)" },
-  { src: "/galeria/portao-3.jpg", label: "Portão de chapa duplo" },
-  { src: "/galeria/portao-4.jpg", label: "Grade e estrutura de ferro" },
-  { src: "/galeria/portao-5.jpg", label: "Portão de garagem residencial" },
-  { src: "/galeria/portao-6.jpg", label: "Portão de garagem" },
+  { src: "/galeria/portao-1.jpeg", label: "Portão basculante moderno" },
+  { src: "/galeria/portao-2.jpeg", label: "Reforma de portão — antes e depois" },
+  { src: "/galeria/portao-3.png", label: "Portão de alumínio ripado" },
+  { src: "/galeria/portao-4.webp", label: "Portão basculante branco" },
+  { src: "/galeria/telhado-1.jpeg", label: "Reforma de estrutura de telhado" },
+  { src: "/galeria/telhado-2.jpeg", label: "Telhado de telha cerâmica" },
 ];
 
 const SERVICES = [
@@ -319,7 +319,7 @@ function Process() {
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {STEPS.map((s) => (
             <div key={s.n} className="relative rounded-2xl border border-white/5 bg-ink-card p-7">
-              <span className="text-5xl font-extrabold text-amber/20">{s.n}</span>
+              <span className="text-5xl font-extrabold text-white">{s.n}</span>
               <h3 className="mt-3 text-lg font-bold">{s.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-steel">{s.desc}</p>
             </div>
