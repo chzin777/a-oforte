@@ -19,12 +19,12 @@ const NAV = [
 ];
 
 const GALLERY = [
-  { src: "/galeria/portao-1.jpg", label: "Portão de ferro ornamental" },
-  { src: "/galeria/portao-2.jpg", label: "Portão social" },
-  { src: "/galeria/portao-3.jpg", label: "Portão deslizante" },
-  { src: "/galeria/portao-4.jpg", label: "Portão de garagem" },
-  { src: "/galeria/portao-5.jpg", label: "Grade e estrutura" },
-  { src: "/galeria/portao-6.jpg", label: "Portão sob medida" },
+  { src: "/galeria/portao-1.jpg", label: "Portão deslizante de chapa" },
+  { src: "/galeria/portao-2.jpg", label: "Portão de garagem (de enrolar)" },
+  { src: "/galeria/portao-3.jpg", label: "Portão de chapa duplo" },
+  { src: "/galeria/portao-4.jpg", label: "Grade e estrutura de ferro" },
+  { src: "/galeria/portao-5.jpg", label: "Portão de garagem residencial" },
+  { src: "/galeria/portao-6.jpg", label: "Portão de garagem" },
 ];
 
 const SERVICES = [
